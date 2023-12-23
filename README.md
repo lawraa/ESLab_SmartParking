@@ -105,7 +105,7 @@ Once you have set up the software environment and dependencies, follow these ste
 
 1. **Navigate to the Project Directory**:
      ```
-     cd ESLab_SmartParking
+     cd ESLab_SmartParking/mycar
      ```
 
 2. **Configure the Flask Application**:

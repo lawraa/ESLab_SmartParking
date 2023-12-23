@@ -1,5 +1,4 @@
-# Embedding System Lab Final Project 
-# Smart Parking Project
+# ES Lab Final Project : Smart Parking Project
 
 ## Concept and Motivation
 

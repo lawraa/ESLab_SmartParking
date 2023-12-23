@@ -125,7 +125,7 @@ Once you have set up the software environment and dependencies, follow these ste
   ```
   python car_controller.py
   ```
-- This will enable you to control the car.
+- This will enable you to control the car and see Live Feed like driving a car.
 
 4. **Access the Live Feed**:
 - Open a web browser and go to `http://your-ip-address:your-port/video_feed` to see the live feed from the car.

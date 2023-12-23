@@ -1,1 +1,2 @@
-# eslab_finalproject_SmartCar
+# Embedding System Lab Final Project 
+# Smart Parking

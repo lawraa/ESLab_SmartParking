@@ -16,11 +16,16 @@ Our project focuses on several key functionalities to achieve this goal:
 
 ## Hardware Setup
 
+### PiRacer Pro
 The robot's hardware is based on the PiRacer Pro, a versatile and powerful robot car designed for Raspberry Pi. 
 
 I followed the detailed instructions in the *PiRacer Pro AI Kit Assembly Tutorial* PDF provided by Waveshare to assemble the robot. This document is a valuable resource for anyone setting up their PiRacer Pro, covering everything from assembly to initial hardware testing.
 
 #### https://www.waveshare.com/wiki/PiRacer_Pro_AI_Kit
+
+### STM32: B-L4S5I-IOT01A Discovery kit for the IoT node
+
+/// Add Later
 
 ### **This is our initial setup:**
 

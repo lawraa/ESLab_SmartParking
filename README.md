@@ -23,11 +23,34 @@ I followed the detailed instructions in the *PiRacer Pro AI Kit Assembly Tutoria
 
 #### https://www.waveshare.com/wiki/PiRacer_Pro_AI_Kit
 
-### STM32: B-L4S5I-IOT01A Discovery kit for the IoT node
+### STM32: B-L4S5I-IOT01A Discovery Kit for IoT Node Project
 
-/// Add Later
+This project utilizes the STM32 B-L4S5I-IOT01A Discovery kit for IoT applications, focusing on collecting data from a Time-of-Flight (ToF) and gesture-detection sensor (VL53L0X) and transmitting this data to a Raspberry Pi via Bluetooth Low Energy (BLE).
 
-### **This is our initial setup:**
+#### Components
+- **STM32 B-L4S5I-IOT01A Discovery Kit:** Central component for IoT applications.
+- **VL53L0X Sensor:** A ToF and gesture-detection sensor for accurate distance measurements.
+- **Raspberry Pi:** Server for receiving data transmitted from the STM32 kit.
+
+#### Functionality
+1. **Data Collection:** The VL53L0X sensor measures distances and collects ToF data.
+2. **Data Processing:** The STM32 kit processes this data into a readable format.
+
+#### BLE Communication
+The STM32 kit transmits the processed data to a Raspberry Pi using Bluetooth Low Energy, ensuring efficient communication.
+
+#### Implementation
+
+##### Hardware Setup
+- Detailed connection guidelines between the STM32 kit and the VL53L0X sensor.
+- BLE module setup (if applicable).
+- Illustration of the overall hardware configuration.
+
+##### Software Development
+- **Firmware for STM32:** Setup Sensor data collection, BLE Service, Socket Server, and BLE transmission.
+- **Raspberry Pi Configuration:** Setup socket client on Raspberry Pi for receiving and handling data.
+
+### **This is our hardware setup:**
 
 ![PiRacer Overview](doc/hardware/PiRacer-Pro.jpg)
 

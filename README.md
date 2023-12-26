@@ -137,6 +137,7 @@ To get started with the software setup for the PiRacer Pro Robot Project, follow
 
 Once you have set up the software environment and dependencies, follow these steps to run the project and control the PiRacer Pro:
 1. **Run you Mbed OS Code Provided in Folder ```stm```**:
+   - This is for BLE Server Setup
 2. **Navigate to the Project Directory**:
      ```
      cd ESLab_SmartParking/mycar

@@ -136,13 +136,13 @@ To get started with the software setup for the PiRacer Pro Robot Project, follow
 ## Running the Project
 
 Once you have set up the software environment and dependencies, follow these steps to run the project and control the PiRacer Pro:
-
-1. **Navigate to the Project Directory**:
+1. **Run you Mbed OS Code Provided in Folder ```stm```**:
+2. **Navigate to the Project Directory**:
      ```
      cd ESLab_SmartParking/mycar
      ```
 
-2. **Configure the Flask Application**:
+3. **Configure the Flask Application**:
 - Open the `car_controller.py` file using a text editor like Vim:
   ```
   vim car_controller.py
@@ -154,18 +154,18 @@ Once you have set up the software environment and dependencies, follow these ste
   ```
 - Replace `'your-ip-address'` and `'your-port'` with your desired IP and port.
 
-3. **Run the Controller**:
+4. **Run the Controller**:
 - Start the car controller script:
   ```
   python car_controller.py
   ```
 - This will enable you to control the car and see Live Feed like driving a car.
 
-4. **Access the Live Feed**:
+5. **Access the Live Feed**:
 - Open a web browser and go to `http://your-ip-address:your-port/video_feed` to see the live feed from the car.
 - Example: `http://172.20.10.2:8082/video_feed`
 
-5. **Troubleshooting BLE Connection**:
+6. **Troubleshooting BLE Connection**:
 - If the BLE fails to connect on the first attempt, re-run the `car_controller.py` script.
 - It might require running the script twice for a successful connection.
 

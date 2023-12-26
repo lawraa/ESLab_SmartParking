@@ -4,6 +4,8 @@
 
 Driving in Taipei is an integral part of daily life but often comes with its own set of challenges and dangers. To address this, our project aims to design a smart driving assistance system. The goal is to provide real-time alerts about the direction and distance of surrounding objects, offer instructions and help for making safe navigational decisions, and present information in an intuitive visual format to enhance safety on the roads.
 
+---
+
 ## Main Functionalities
 
 Our project focuses on several key functionalities to achieve this goal:
@@ -14,6 +16,8 @@ Our project focuses on several key functionalities to achieve this goal:
 - **Screen Display**: Show First Person View (FPV) scenes, current mode, and messages on a screen for easy understanding.
 - **Auto Parking**: Implement machine learning algorithms for an efficient auto parking system.
 
+---
+
 ## Hardware Setup
 
 ### PiRacer Pro
@@ -22,6 +26,7 @@ The robot's hardware is based on the PiRacer Pro, a versatile and powerful robot
 I followed the detailed instructions in the *PiRacer Pro AI Kit Assembly Tutorial* PDF provided by Waveshare to assemble the robot. This document is a valuable resource for anyone setting up their PiRacer Pro, covering everything from assembly to initial hardware testing.
 
 #### https://www.waveshare.com/wiki/PiRacer_Pro_AI_Kit
+
 
 ### STM32: B-L4S5I-IOT01A Discovery Kit for IoT Node Project
 
@@ -42,13 +47,13 @@ The STM32 kit transmits the processed data to a Raspberry Pi using Bluetooth Low
 #### Implementation
 
 ##### Hardware Setup
-- Detailed connection guidelines between the STM32 kit and the VL53L0X sensor.
-- BLE module setup (if applicable).
-- Illustration of the overall hardware configuration.
+- Provide Power Supply
 
 ##### Software Development
-- **Firmware for STM32:** Setup Sensor data collection, BLE Service, Socket Server, and BLE transmission.
-- **Raspberry Pi Configuration:** Setup socket client on Raspberry Pi for receiving and handling data.
+- Use Mbed Studio
+- Import BSP Library
+- Import VL53L0X
+- Run ``` main.cpp ``` by pressing Run Button in Mbed Studio
 
 ### **This is our hardware setup:**
 
@@ -60,6 +65,7 @@ Below is an overview of the architecture of the our setup:
 
 ![Architecture Overview](doc/hardware/architecture.png)
 
+---
 
 ## Software Setup
 

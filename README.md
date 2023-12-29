@@ -1,5 +1,8 @@
 # ES Lab Final Project : Smart Parking Project
 
+##### Final Project Demo Link: 
+##### https://docs.google.com/presentation/d/1iuhNugOwyZA2C9YxsGZE1GkYhOxlie0n_-zKW6uc74M/edit#slide=id.g2646f409e62_1_111
+
 ## Concept and Motivation
 
 Driving in Taipei is an integral part of daily life but often comes with its own set of challenges and dangers. To address this, our project aims to design a smart driving assistance system. The goal is to provide real-time alerts about the direction and distance of surrounding objects, offer instructions and help for making safe navigational decisions, and present information in an intuitive visual format to enhance safety on the roads.

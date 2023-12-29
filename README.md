@@ -1,7 +1,7 @@
 # ES Lab Final Project : Smart Parking Project
 
 ##### Final Project Demo Link: 
-##### https://docs.google.com/presentation/d/1iuhNugOwyZA2C9YxsGZE1GkYhOxlie0n_-zKW6uc74M/edit#slide=id.g2646f409e62_1_111
+##### https://docs.google.com/presentation/d/1iuhNugOwyZA2C9YxsGZE1GkYhOxlie0n_-zKW6uc74M/edit?usp=sharing
 ##### Final Project Report Link: 
 ##### https://docs.google.com/document/d/1TF5L6p-psto1antOncjGxkNwRf949BSYGLoh80wtta4/edit?usp=sharing
 
